@@ -26,4 +26,6 @@ if sol != None:
     if print_sol : print("Solution :", sol[0]) 
 else:
     name = file_path.split('/')[-1].split('.')[0]
-    print("No solution found for file :", name)
+    t1 = time.time()
+    total = t1-t0
+    print("No solution found for file :", name, ' time taken :', total)

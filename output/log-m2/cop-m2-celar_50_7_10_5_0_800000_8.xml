@@ -1,0 +1,421 @@
+<instance format="XCSP3" type="COP">
+  <variables>
+    <array id="emition" note="Definition des variables" size="[50]">
+      <domain for="emition[0]"> 14 28 42 56 70 84 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[1]"> 14 28 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[2] emition[42..43] emition[47]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[3]"> 14 28 42 56 70 84 112 140 154 168 196 210 224 238 252 266 280 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 588 602 616 630 644 658 686 700 728 </domain>
+      <domain for="emition[4]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 322 336 364 378 406 420 434 448 476 490 504 518 546 560 574 588 602 616 644 658 672 686 700 728 </domain>
+      <domain for="emition[5]"> 28 56 84 98 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 588 602 630 644 658 672 686 700 728 </domain>
+      <domain for="emition[6]"> 14 28 56 70 84 98 112 126 140 168 182 196 210 224 238 252 266 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[7]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[8]"> 14 28 42 56 70 84 98 112 126 140 154 168 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 448 490 504 518 532 574 602 616 630 644 658 700 714 728 </domain>
+      <domain for="emition[9]"> 14 28 56 70 84 98 126 140 154 168 182 196 210 238 252 280 294 308 322 350 364 392 406 420 434 462 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[10]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[11]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="emition[12]"> 14 28 42 56 70 84 98 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[13]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="emition[14]"> 14 28 56 70 98 112 140 154 168 182 224 238 252 266 280 294 308 322 336 350 378 392 420 434 448 462 476 490 504 546 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[15]"> 28 42 56 84 98 112 126 140 168 182 196 210 224 238 266 294 308 322 350 364 378 392 406 434 462 504 518 532 546 560 574 588 602 630 644 658 672 686 700 714 </domain>
+      <domain for="emition[16]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[17]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 686 714 728 </domain>
+      <domain for="emition[18]"> 28 42 56 70 98 112 126 140 154 168 182 196 210 238 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 588 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[19]"> 14 28 42 56 70 84 112 126 140 154 168 182 196 210 238 266 280 294 308 350 364 378 392 406 420 434 448 462 476 490 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[20]"> 14 28 42 56 70 84 98 112 126 154 168 182 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[21]"> 14 28 56 70 84 98 112 126 154 168 182 196 210 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 518 532 546 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="emition[22]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 392 406 420 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[23]"> 14 28 42 56 70 84 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 378 392 406 420 448 476 490 504 518 532 546 574 588 616 630 658 672 714 728 </domain>
+      <domain for="emition[24]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 294 308 322 336 364 378 392 406 420 448 462 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="emition[25]"> 14 28 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 560 574 588 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="emition[26]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[27]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[28]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[29]"> 14 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[30]"> 14 28 70 84 98 126 140 182 196 210 238 252 266 280 294 308 322 336 350 378 392 406 434 448 462 504 518 532 546 560 588 602 616 630 644 672 686 700 714 728 </domain>
+      <domain for="emition[31]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 294 322 350 364 378 392 406 420 434 448 462 476 504 518 532 546 560 602 616 630 644 658 700 714 728 </domain>
+      <domain for="emition[32]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 420 434 448 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[33]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[34]"> 28 42 56 84 98 126 140 168 182 196 210 224 238 252 266 280 294 336 350 364 378 392 406 420 434 448 476 490 504 518 532 546 560 588 602 616 630 644 658 700 714 728 </domain>
+      <domain for="emition[35]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 462 476 504 518 532 546 560 574 588 630 644 658 672 686 700 714 </domain>
+      <domain for="emition[36]"> 14 42 56 70 84 98 126 140 154 168 182 196 210 224 238 252 266 280 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 574 588 616 644 658 686 700 714 </domain>
+      <domain for="emition[37]"> 14 28 42 56 84 98 112 126 140 154 168 182 196 210 224 238 280 294 322 336 364 378 406 420 448 462 504 518 532 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="emition[38]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 574 644 658 672 686 714 </domain>
+      <domain for="emition[39]"> 28 42 56 84 98 112 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 448 462 504 518 532 546 560 574 588 602 630 658 672 686 700 714 </domain>
+      <domain for="emition[40]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[41]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 224 238 252 266 280 308 336 350 364 420 434 448 462 476 490 504 518 532 574 588 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[44]"> 70 84 140 154 168 182 196 210 224 238 252 266 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 532 546 560 574 588 602 616 630 658 672 686 700 714 728 </domain>
+      <domain for="emition[45]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 448 462 476 490 504 518 532 546 560 574 588 602 616 630 658 672 686 700 714 728 </domain>
+      <domain for="emition[46]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="emition[48]"> 14 28 56 70 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 532 546 574 588 630 658 672 686 700 714 728 </domain>
+      <domain for="emition[49]"> 28 42 70 98 112 126 140 154 182 196 210 224 238 252 280 308 322 336 350 364 378 392 406 434 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+    </array>
+    <array id="reception" size="[50]">
+      <domain for="reception[0]"> 14 28 42 56 70 84 98 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 448 462 476 490 504 518 546 560 574 588 602 630 644 658 672 686 700 714 </domain>
+      <domain for="reception[1]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 238 252 266 280 294 308 322 350 364 406 420 434 462 490 504 518 532 560 574 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[2] reception[6] reception[9] reception[37] reception[46..47]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[3]"> 14 42 56 84 98 112 154 168 182 196 210 224 238 252 266 280 294 308 322 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 616 630 644 658 686 700 714 728 </domain>
+      <domain for="reception[4]"> 14 28 42 56 70 112 126 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 392 406 420 434 448 462 490 504 532 546 560 574 588 602 616 630 644 658 686 700 728 </domain>
+      <domain for="reception[5]"> 14 28 42 56 70 84 98 112 126 140 154 168 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 504 518 546 560 574 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[7]"> 14 28 42 56 70 84 98 112 126 140 168 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 490 504 518 532 546 560 588 602 616 630 644 658 672 686 714 728 </domain>
+      <domain for="reception[8]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[10]"> 14 42 56 70 84 112 126 140 154 168 196 210 224 238 252 308 322 336 350 364 378 392 406 420 434 448 490 504 518 532 560 574 588 602 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[11]"> 14 28 42 56 84 98 126 140 154 168 182 196 224 238 252 266 280 294 308 322 350 364 378 392 434 448 462 504 518 532 560 588 602 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[12]"> 14 28 42 56 70 84 98 112 126 154 168 182 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 </domain>
+      <domain for="reception[13]"> 14 28 42 56 70 84 126 140 154 168 182 196 210 224 238 252 266 280 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 </domain>
+      <domain for="reception[14]"> 14 28 42 70 84 98 112 126 140 154 182 196 210 252 266 280 294 308 336 350 364 378 392 406 420 434 448 476 490 504 532 546 560 574 588 602 616 630 672 686 714 </domain>
+      <domain for="reception[15]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[16]"> 14 28 42 56 84 98 126 140 154 168 182 210 224 238 252 266 280 294 308 322 336 364 378 392 406 448 462 476 490 518 532 546 560 574 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="reception[17]"> 14 28 42 56 70 84 98 112 126 154 168 196 210 224 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[18]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 658 672 686 700 728 </domain>
+      <domain for="reception[19]"> 14 28 42 70 84 98 126 140 154 168 182 210 238 252 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 532 546 560 574 588 616 630 644 658 672 686 700 714 </domain>
+      <domain for="reception[20]"> 28 42 56 70 98 112 126 140 154 168 182 196 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[21]"> 14 28 42 56 84 98 112 126 168 182 196 210 224 238 252 280 308 322 336 350 364 378 392 406 420 434 448 462 476 504 518 532 546 574 588 602 616 630 644 658 672 686 700 </domain>
+      <domain for="reception[22]"> 14 28 42 56 84 98 112 126 140 168 182 196 210 238 252 266 294 308 322 336 350 364 392 420 434 462 476 490 504 532 546 560 574 602 616 630 658 686 700 714 728 </domain>
+      <domain for="reception[23]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="reception[24]"> 42 56 84 98 112 126 140 154 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 672 700 714 728 </domain>
+      <domain for="reception[25]"> 14 42 56 70 84 98 112 126 140 168 182 196 210 224 238 252 266 280 294 322 336 364 406 420 434 448 462 490 504 518 532 546 560 574 602 616 630 644 658 672 686 714 </domain>
+      <domain for="reception[26]"> 14 28 42 56 84 98 140 154 168 196 210 224 238 252 308 322 336 350 364 378 406 420 434 462 476 490 504 518 532 546 560 574 588 616 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[27]"> 14 28 42 56 70 98 112 140 168 182 196 224 238 266 280 294 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[28]"> 28 42 56 70 84 98 112 126 154 168 196 210 224 252 280 294 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[29]"> 14 28 42 56 70 84 98 126 140 154 182 196 224 238 252 280 294 308 322 336 350 364 378 392 406 448 462 476 490 518 532 546 560 574 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[30]"> 14 28 42 56 70 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[31]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 280 294 308 322 336 350 378 392 406 434 448 462 476 490 504 532 546 574 588 616 630 644 658 686 700 714 728 </domain>
+      <domain for="reception[32]"> 14 28 42 56 84 112 126 140 154 168 182 196 210 224 238 252 280 294 308 322 336 350 364 378 392 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 672 700 714 728 </domain>
+      <domain for="reception[33]"> 14 28 42 70 84 98 112 126 140 154 168 182 196 210 224 238 252 336 350 378 392 420 434 448 476 490 504 518 532 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[34]"> 14 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 476 490 504 518 532 546 560 574 588 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[35]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 728 </domain>
+      <domain for="reception[36]"> 14 42 56 70 84 98 112 126 140 154 168 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 714 728 </domain>
+      <domain for="reception[38]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 490 504 518 532 546 560 574 588 602 616 630 644 658 672 700 714 728 </domain>
+      <domain for="reception[39]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 560 574 588 616 630 644 658 672 714 </domain>
+      <domain for="reception[40]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 686 700 714 728 </domain>
+      <domain for="reception[41]"> 14 28 42 56 70 84 98 126 154 168 182 210 224 238 252 266 280 294 308 322 350 364 392 406 420 434 448 462 476 490 504 532 546 574 588 616 630 644 686 728 </domain>
+      <domain for="reception[42]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 210 224 238 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[43]"> 14 28 42 56 70 84 98 112 126 140 154 168 182 196 210 224 238 252 266 280 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[44]"> 14 28 42 70 84 98 126 154 168 182 196 224 238 252 266 294 308 336 350 378 392 406 420 448 462 476 490 504 518 532 546 560 574 602 616 630 658 672 686 714 728 </domain>
+      <domain for="reception[45]"> 14 28 42 56 70 98 112 126 140 154 168 224 252 266 294 308 322 336 350 364 378 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 616 630 644 658 672 700 714 </domain>
+      <domain for="reception[48]"> 28 42 56 70 84 98 112 126 154 168 182 196 210 224 252 266 280 294 308 322 336 350 364 378 392 406 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+      <domain for="reception[49]"> 14 28 42 56 70 84 98 112 126 140 168 182 196 224 238 252 266 280 294 308 322 336 350 364 392 406 420 434 448 462 476 490 504 518 532 546 560 574 588 602 616 630 644 658 672 686 700 714 728 </domain>
+    </array>
+  </variables>
+  <constraints>
+    <group note="difference de frequence emition et reception">
+      <intension> eq(dist(%0,%1),154) </intension>
+      <args> emition[0] reception[0] </args>
+      <args> emition[1] reception[1] </args>
+      <args> emition[2] reception[2] </args>
+      <args> emition[3] reception[3] </args>
+      <args> emition[4] reception[4] </args>
+      <args> emition[5] reception[5] </args>
+      <args> emition[6] reception[6] </args>
+      <args> emition[7] reception[7] </args>
+      <args> emition[8] reception[8] </args>
+      <args> emition[9] reception[9] </args>
+      <args> emition[10] reception[10] </args>
+      <args> emition[11] reception[11] </args>
+      <args> emition[12] reception[12] </args>
+      <args> emition[13] reception[13] </args>
+      <args> emition[14] reception[14] </args>
+      <args> emition[15] reception[15] </args>
+      <args> emition[16] reception[16] </args>
+      <args> emition[17] reception[17] </args>
+      <args> emition[18] reception[18] </args>
+      <args> emition[19] reception[19] </args>
+      <args> emition[20] reception[20] </args>
+      <args> emition[21] reception[21] </args>
+      <args> emition[22] reception[22] </args>
+      <args> emition[23] reception[23] </args>
+      <args> emition[24] reception[24] </args>
+      <args> emition[25] reception[25] </args>
+      <args> emition[26] reception[26] </args>
+      <args> emition[27] reception[27] </args>
+      <args> emition[28] reception[28] </args>
+      <args> emition[29] reception[29] </args>
+      <args> emition[30] reception[30] </args>
+      <args> emition[31] reception[31] </args>
+      <args> emition[32] reception[32] </args>
+      <args> emition[33] reception[33] </args>
+      <args> emition[34] reception[34] </args>
+      <args> emition[35] reception[35] </args>
+      <args> emition[36] reception[36] </args>
+      <args> emition[37] reception[37] </args>
+      <args> emition[38] reception[38] </args>
+      <args> emition[39] reception[39] </args>
+      <args> emition[40] reception[40] </args>
+      <args> emition[41] reception[41] </args>
+      <args> emition[42] reception[42] </args>
+      <args> emition[43] reception[43] </args>
+      <args> emition[44] reception[44] </args>
+      <args> emition[45] reception[45] </args>
+      <args> emition[46] reception[46] </args>
+      <args> emition[47] reception[47] </args>
+      <args> emition[48] reception[48] </args>
+      <args> emition[49] reception[49] </args>
+    </group>
+    <group note="emition = reception dans les deux cotés">
+      <intension> eq(%0,%1) </intension>
+      <args> emition[0] reception[20] </args>
+      <args> emition[0] reception[22] </args>
+      <args> emition[3] reception[28] </args>
+      <args> emition[6] reception[47] </args>
+      <args> emition[7] reception[48] </args>
+      <args> emition[7] reception[12] </args>
+      <args> emition[9] reception[13] </args>
+      <args> emition[10] reception[18] </args>
+      <args> emition[14] reception[47] </args>
+      <args> emition[29] reception[47] </args>
+      <args> emition[33] reception[47] </args>
+      <args> emition[37] reception[47] </args>
+    </group>
+    <group>
+      <intension> eq(%0,%1) </intension>
+      <args> emition[20] reception[0] </args>
+      <args> emition[22] reception[0] </args>
+      <args> emition[28] reception[3] </args>
+      <args> emition[47] reception[6] </args>
+      <args> emition[48] reception[7] </args>
+      <args> emition[12] reception[7] </args>
+      <args> emition[13] reception[9] </args>
+      <args> emition[18] reception[10] </args>
+      <args> emition[47] reception[14] </args>
+      <args> emition[47] reception[29] </args>
+      <args> emition[47] reception[33] </args>
+      <args> emition[47] reception[37] </args>
+    </group>
+    <group note="Gestion des interferances">
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> emition[30] reception[1] 30 </args>
+      <args> emition[26] reception[1] 20 </args>
+      <args> emition[19] reception[1] 20 </args>
+      <args> emition[22] reception[1] 20 </args>
+      <args> emition[28] reception[2] 40 </args>
+      <args> emition[15] reception[3] 20 </args>
+      <args> emition[41] reception[3] 30 </args>
+      <args> emition[44] reception[4] 30 </args>
+      <args> emition[24] reception[5] 50 </args>
+      <args> emition[48] reception[6] 50 </args>
+      <args> emition[44] reception[6] 50 </args>
+      <args> emition[28] reception[6] 30 </args>
+      <args> emition[44] reception[8] 20 </args>
+      <args> emition[23] reception[9] 20 </args>
+      <args> emition[49] reception[10] 50 </args>
+      <args> emition[20] reception[10] 50 </args>
+      <args> emition[17] reception[11] 40 </args>
+      <args> emition[37] reception[12] 20 </args>
+      <args> emition[47] reception[12] 50 </args>
+      <args> emition[18] reception[13] 40 </args>
+      <args> emition[39] reception[14] 50 </args>
+      <args> emition[44] reception[15] 30 </args>
+      <args> emition[28] reception[16] 40 </args>
+      <args> emition[45] reception[17] 30 </args>
+      <args> emition[24] reception[18] 20 </args>
+      <args> emition[22] reception[18] 30 </args>
+      <args> emition[44] reception[18] 20 </args>
+      <args> emition[23] reception[18] 40 </args>
+      <args> emition[24] reception[19] 30 </args>
+      <args> emition[44] reception[19] 20 </args>
+      <args> emition[30] reception[20] 40 </args>
+      <args> emition[43] reception[21] 30 </args>
+      <args> emition[32] reception[21] 20 </args>
+      <args> emition[44] reception[21] 50 </args>
+      <args> emition[49] reception[22] 30 </args>
+      <args> emition[24] reception[23] 20 </args>
+      <args> emition[44] reception[23] 20 </args>
+      <args> emition[49] reception[24] 30 </args>
+      <args> emition[42] reception[25] 40 </args>
+      <args> emition[28] reception[25] 20 </args>
+      <args> emition[29] reception[27] 30 </args>
+      <args> emition[40] reception[27] 30 </args>
+      <args> emition[47] reception[27] 40 </args>
+      <args> emition[38] reception[28] 40 </args>
+      <args> emition[48] reception[28] 50 </args>
+      <args> emition[36] reception[31] 40 </args>
+      <args> emition[43] reception[34] 50 </args>
+      <args> emition[36] reception[34] 30 </args>
+      <args> emition[47] reception[34] 40 </args>
+      <args> emition[49] reception[35] 50 </args>
+      <args> emition[45] reception[42] 40 </args>
+      <args> emition[46] reception[45] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> emition[1] reception[30] 30 </args>
+      <args> emition[1] reception[26] 20 </args>
+      <args> emition[1] reception[19] 20 </args>
+      <args> emition[1] reception[22] 20 </args>
+      <args> emition[2] reception[28] 40 </args>
+      <args> emition[3] reception[15] 20 </args>
+      <args> emition[3] reception[41] 30 </args>
+      <args> emition[4] reception[44] 30 </args>
+      <args> emition[5] reception[24] 50 </args>
+      <args> emition[6] reception[48] 50 </args>
+      <args> emition[6] reception[44] 50 </args>
+      <args> emition[6] reception[28] 30 </args>
+      <args> emition[8] reception[44] 20 </args>
+      <args> emition[9] reception[23] 20 </args>
+      <args> emition[10] reception[49] 50 </args>
+      <args> emition[10] reception[20] 50 </args>
+      <args> emition[11] reception[17] 40 </args>
+      <args> emition[12] reception[37] 20 </args>
+      <args> emition[12] reception[47] 50 </args>
+      <args> emition[13] reception[18] 40 </args>
+      <args> emition[14] reception[39] 50 </args>
+      <args> emition[15] reception[44] 30 </args>
+      <args> emition[16] reception[28] 40 </args>
+      <args> emition[17] reception[45] 30 </args>
+      <args> emition[18] reception[24] 20 </args>
+      <args> emition[18] reception[22] 30 </args>
+      <args> emition[18] reception[44] 20 </args>
+      <args> emition[18] reception[23] 40 </args>
+      <args> emition[19] reception[24] 30 </args>
+      <args> emition[19] reception[44] 20 </args>
+      <args> emition[20] reception[30] 40 </args>
+      <args> emition[21] reception[43] 30 </args>
+      <args> emition[21] reception[32] 20 </args>
+      <args> emition[21] reception[44] 50 </args>
+      <args> emition[22] reception[49] 30 </args>
+      <args> emition[23] reception[24] 20 </args>
+      <args> emition[23] reception[44] 20 </args>
+      <args> emition[24] reception[49] 30 </args>
+      <args> emition[25] reception[42] 40 </args>
+      <args> emition[25] reception[28] 20 </args>
+      <args> emition[27] reception[29] 30 </args>
+      <args> emition[27] reception[40] 30 </args>
+      <args> emition[27] reception[47] 40 </args>
+      <args> emition[28] reception[38] 40 </args>
+      <args> emition[28] reception[48] 50 </args>
+      <args> emition[31] reception[36] 40 </args>
+      <args> emition[34] reception[43] 50 </args>
+      <args> emition[34] reception[36] 30 </args>
+      <args> emition[34] reception[47] 40 </args>
+      <args> emition[35] reception[49] 50 </args>
+      <args> emition[42] reception[45] 40 </args>
+      <args> emition[45] reception[46] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> emition[30] emition[1] 30 </args>
+      <args> emition[26] emition[1] 20 </args>
+      <args> emition[19] emition[1] 20 </args>
+      <args> emition[22] emition[1] 20 </args>
+      <args> emition[28] emition[2] 40 </args>
+      <args> emition[15] emition[3] 20 </args>
+      <args> emition[41] emition[3] 30 </args>
+      <args> emition[44] emition[4] 30 </args>
+      <args> emition[24] emition[5] 50 </args>
+      <args> emition[48] emition[6] 50 </args>
+      <args> emition[44] emition[6] 50 </args>
+      <args> emition[28] emition[6] 30 </args>
+      <args> emition[44] emition[8] 20 </args>
+      <args> emition[23] emition[9] 20 </args>
+      <args> emition[49] emition[10] 50 </args>
+      <args> emition[20] emition[10] 50 </args>
+      <args> emition[17] emition[11] 40 </args>
+      <args> emition[37] emition[12] 20 </args>
+      <args> emition[47] emition[12] 50 </args>
+      <args> emition[18] emition[13] 40 </args>
+      <args> emition[39] emition[14] 50 </args>
+      <args> emition[44] emition[15] 30 </args>
+      <args> emition[28] emition[16] 40 </args>
+      <args> emition[45] emition[17] 30 </args>
+      <args> emition[24] emition[18] 20 </args>
+      <args> emition[22] emition[18] 30 </args>
+      <args> emition[44] emition[18] 20 </args>
+      <args> emition[23] emition[18] 40 </args>
+      <args> emition[24] emition[19] 30 </args>
+      <args> emition[44] emition[19] 20 </args>
+      <args> emition[30] emition[20] 40 </args>
+      <args> emition[43] emition[21] 30 </args>
+      <args> emition[32] emition[21] 20 </args>
+      <args> emition[44] emition[21] 50 </args>
+      <args> emition[49] emition[22] 30 </args>
+      <args> emition[24] emition[23] 20 </args>
+      <args> emition[44] emition[23] 20 </args>
+      <args> emition[49] emition[24] 30 </args>
+      <args> emition[42] emition[25] 40 </args>
+      <args> emition[28] emition[25] 20 </args>
+      <args> emition[29] emition[27] 30 </args>
+      <args> emition[40] emition[27] 30 </args>
+      <args> emition[47] emition[27] 40 </args>
+      <args> emition[38] emition[28] 40 </args>
+      <args> emition[48] emition[28] 50 </args>
+      <args> emition[36] emition[31] 40 </args>
+      <args> emition[43] emition[34] 50 </args>
+      <args> emition[36] emition[34] 30 </args>
+      <args> emition[47] emition[34] 40 </args>
+      <args> emition[49] emition[35] 50 </args>
+      <args> emition[45] emition[42] 40 </args>
+      <args> emition[46] emition[45] 30 </args>
+    </group>
+    <group>
+      <intension> ge(dist(%0,%1),%2) </intension>
+      <args> reception[1] reception[30] 30 </args>
+      <args> reception[1] reception[26] 20 </args>
+      <args> reception[1] reception[19] 20 </args>
+      <args> reception[1] reception[22] 20 </args>
+      <args> reception[2] reception[28] 40 </args>
+      <args> reception[3] reception[15] 20 </args>
+      <args> reception[3] reception[41] 30 </args>
+      <args> reception[4] reception[44] 30 </args>
+      <args> reception[5] reception[24] 50 </args>
+      <args> reception[6] reception[48] 50 </args>
+      <args> reception[6] reception[44] 50 </args>
+      <args> reception[6] reception[28] 30 </args>
+      <args> reception[8] reception[44] 20 </args>
+      <args> reception[9] reception[23] 20 </args>
+      <args> reception[10] reception[49] 50 </args>
+      <args> reception[10] reception[20] 50 </args>
+      <args> reception[11] reception[17] 40 </args>
+      <args> reception[12] reception[37] 20 </args>
+      <args> reception[12] reception[47] 50 </args>
+      <args> reception[13] reception[18] 40 </args>
+      <args> reception[14] reception[39] 50 </args>
+      <args> reception[15] reception[44] 30 </args>
+      <args> reception[16] reception[28] 40 </args>
+      <args> reception[17] reception[45] 30 </args>
+      <args> reception[18] reception[24] 20 </args>
+      <args> reception[18] reception[22] 30 </args>
+      <args> reception[18] reception[44] 20 </args>
+      <args> reception[18] reception[23] 40 </args>
+      <args> reception[19] reception[24] 30 </args>
+      <args> reception[19] reception[44] 20 </args>
+      <args> reception[20] reception[30] 40 </args>
+      <args> reception[21] reception[43] 30 </args>
+      <args> reception[21] reception[32] 20 </args>
+      <args> reception[21] reception[44] 50 </args>
+      <args> reception[22] reception[49] 30 </args>
+      <args> reception[23] reception[24] 20 </args>
+      <args> reception[23] reception[44] 20 </args>
+      <args> reception[24] reception[49] 30 </args>
+      <args> reception[25] reception[42] 40 </args>
+      <args> reception[25] reception[28] 20 </args>
+      <args> reception[27] reception[29] 30 </args>
+      <args> reception[27] reception[40] 30 </args>
+      <args> reception[27] reception[47] 40 </args>
+      <args> reception[28] reception[38] 40 </args>
+      <args> reception[28] reception[48] 50 </args>
+      <args> reception[31] reception[36] 40 </args>
+      <args> reception[34] reception[43] 50 </args>
+      <args> reception[34] reception[36] 30 </args>
+      <args> reception[34] reception[47] 40 </args>
+      <args> reception[35] reception[49] 50 </args>
+      <args> reception[42] reception[45] 40 </args>
+      <args> reception[45] reception[46] 30 </args>
+    </group>
+    <group note="Nombre maximale de frequences par region">
+      <nValues>
+        <list> %... </list>
+        <condition> (le,%0) </condition>
+      </nValues>
+      <args> 18 emition[0] emition[5] emition[9] emition[20] emition[22] emition[24] emition[30] emition[35] emition[49] reception[0] reception[5] reception[9] reception[20] reception[22] reception[24] reception[30] reception[35] reception[49] </args>
+      <args> 20 emition[1] emition[15..17] emition[25..26] emition[38] emition[42] emition[45..46] reception[1] reception[15..17] reception[25..26] reception[38] reception[42] reception[45..46] </args>
+      <args> 15 emition[2] emition[4] emition[7] emition[12] emition[33] emition[37] emition[47..48] reception[2] reception[4] reception[7] reception[12] reception[33] reception[37] reception[47..48] </args>
+      <args> 8 emition[3] emition[11] emition[23] emition[41] reception[3] reception[11] reception[23] reception[41] </args>
+      <args> 6 emition[6] emition[14] emition[28] emition[32] reception[6] reception[14] reception[28] reception[32] </args>
+      <args> 11 emition[8] emition[10] emition[13] emition[18..19] emition[44] reception[8] reception[10] reception[13] reception[18..19] reception[44] </args>
+      <args> 16 emition[21] emition[27] emition[29] emition[31] emition[34] emition[36] emition[39..40] emition[43] reception[21] reception[27] reception[29] reception[31] reception[34] reception[36] reception[39..40] reception[43] </args>
+    </group>
+  </constraints>
+  <objectives>
+    <minimize note="Utiliser les fréquences les plus basses" type="maximum"> emition[0] emition[5] emition[9] emition[20] emition[22] emition[24] emition[30] emition[35] emition[49] reception[0] reception[5] reception[9] reception[20] reception[22] reception[24] reception[30] reception[35] reception[49] emition[1] emition[15..17] emition[25..26] emition[38] emition[42] emition[45..46] reception[1] reception[15..17] reception[25..26] reception[38] reception[42] reception[45..46] emition[2] emition[4] emition[7] emition[12] emition[33] emition[37] emition[47..48] reception[2] reception[4] reception[7] reception[12] reception[33] reception[37] reception[47..48] emition[3] emition[11] emition[23] emition[41] reception[3] reception[11] reception[23] reception[41] emition[6] emition[14] emition[28] emition[32] reception[6] reception[14] reception[28] reception[32] emition[8] emition[10] emition[13] emition[18..19] emition[44] reception[8] reception[10] reception[13] reception[18..19] reception[44] emition[21] emition[27] emition[29] emition[31] emition[34] emition[36] emition[39..40] emition[43] reception[21] reception[27] reception[29] reception[31] reception[34] reception[36] reception[39..40] reception[43] </minimize>
+  </objectives>
+</instance>

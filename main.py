@@ -24,13 +24,13 @@ for file in files:
 # This step is optional if you already have the .cfn files 
 # for our case we have already generated the cfn files 
 # and they are in the directory /output/CFN
-path = "./donnees/donnees_wcsp" # path to the directory of the json files
+"""path = "./donnees/donnees_wcsp" # path to the directory of the json files
 files = [f for f in listdir(path)]
 for index, file in enumerate(files):
     if file.endswith('.json'):
         commande_create = "python3 create_cfn.py --name='"+path+"/"+file+"'"
         os.system(commande_create)
-        print('CFN file for the file ', file, ' was created')
+        print('CFN file for the file ', file, ' was created')"""
         
 # IMPORTANT : This step uses the pytoulbar2 library to solve the instances; 
 # Make sure to install it before hand 
