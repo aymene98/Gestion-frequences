@@ -1,5 +1,6 @@
 from pycsp3 import *
 
+# Getting and splitting the data
 stations = data[0]
 regions = data[1]
 interferences = data[2]
@@ -15,11 +16,11 @@ for station in stations:
 
 delta_station = [info[2] for info in stations]
     
+# Definition des variables
 emition = VarArray(size=len(stations), dom=lambda i : domains[i][0])
 reception = VarArray(size=len(stations), dom=lambda i : domains[i][1])
 
-#print([emition[i] for i in station_per_region[1]].extend([reception[i] for i in station_per_region[1]]))
-
+# Definition des contraintes
 satisfy(
     #difference de frequence emition et reception
     [abs(emition[i]-reception[i]) == delta_station[i] for i in range(len(delta_station))],
@@ -39,11 +40,12 @@ satisfy(
     [NValues([emition[i] for i in station_per_region[key]] + [reception[i] for i in station_per_region[key]]) <= regions[key] for key in station_per_region.keys()],
 )
 
-frequences = []
+frequences = [] # liste qui contient tout les frequences utilisée (emition et reception)
 for key in station_per_region.keys():
     frequences += [emition[i] for i in station_per_region[key]]
     frequences += [reception[i] for i in station_per_region[key]]
-    
+   
+# definition des foncitons à minimiser 
 if variant("m1") or not variant():
     minimize(
         # nombre de frequences utilisées
